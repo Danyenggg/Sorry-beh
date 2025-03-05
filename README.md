@@ -11,3 +11,24 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+#heart {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50% / 100%; /* Creates the heart shape */
+  position: relative; /* Needed for absolute positioning of the message */
+  margin: 50px auto; /* Centers the heart horizontally */
+}
+
+#message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the message within the heart */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
